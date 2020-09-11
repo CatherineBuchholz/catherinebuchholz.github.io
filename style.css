@@ -9,7 +9,7 @@
 }
 
 * {
-  font-family: nunito;
+  font-family: nunito, Arial, Helvetica, sans-serif;
   background: black;
 }
 
@@ -17,6 +17,7 @@ h1 {
   font-family: rajdhani;
   max-width: 15in;
   color: white;
+  font-size: x-large;
 }
 
 p {
