@@ -1,0 +1,22 @@
+@font-face {
+  src: url(fonts/Nunito-Regular.ttf);
+  font-family: nunito;
+}
+
+@font-face {
+  src: url(fonts/Rajdhani-Regular.ttf);
+  font-family: rajdhani;
+}
+
+* {
+  font-family: nunito;
+}
+
+h1 {
+  font-family: rajdhani;
+  max-width: 6in;
+}
+
+p {
+  max-width: 6in;
+}
