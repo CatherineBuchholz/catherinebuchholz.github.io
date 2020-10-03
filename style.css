@@ -1,26 +1,41 @@
 @font-face {
-  src: url(fonts/Nunito-Regular.ttf);
-  font-family: nunito;
-}
-
-@font-face {
-  src: url(fonts/Rajdhani-Regular.ttf);
-  font-family: rajdhani;
+  src: url(fonts/Mulish.ttf);
+  font-family: mulish;
 }
 
 * {
-  font-family: nunito, Arial, Helvetica, sans-serif;
+  font-family: mulish, Arial, Helvetica, sans-serif;
   background: black;
 }
 
 h1 {
-  font-family: rajdhani;
   max-width: 15in;
-  color: white;
-  font-size: x-large;
+  color: #fff;
+  font-size: 450%;
 }
 
 p {
   max-width: 15in;
-  color: #d3e8e1;
+  color: #fff;
+  font-size: 175%;
+}
+
+img {
+  width: 300px;
+  border-radius: 8px;
+}
+
+#gallery {
+  height: 50px;
+  width: 100px;
+}
+
+.link {
+  color: #f6ff00;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #e94159;
+  text-decoration: none;
 }
