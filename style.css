@@ -5,18 +5,19 @@
 
 * {
   font-family: mulish, Arial, Helvetica, sans-serif;
-  background: black;
+  background: #fff;
+  padding: 5px;
 }
 
 h1 {
-  max-width: 15in;
-  color: #f6ff00;
-  font-size: 75px;
+  max-width: 7.5in;
+  color: #749290;
+  font-size: 50px;
 }
 
 p {
-  max-width: 15in;
-  color: #fff;
+  max-width: 7.5in;
+  color: #000;
   font-size: 25px;
 }
 
@@ -30,12 +31,45 @@ img {
   width: 100px;
 }
 
-.link {
-  color: #f6ff00;
+a {
+  color: #749290;
   text-decoration: none;
 }
 
-.link:hover {
-  color: #e94159;
+a:hover {
+  transition: 0.25s;
+  background-color: #ccd6d5;
+}
+
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: #fff;
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 14px;
   text-decoration: none;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
 }
