@@ -10,13 +10,11 @@
 }
 
 h1 {
-  max-width: 7.5in;
   color: #749290;
   font-size: 50px;
 }
 
 p {
-  max-width: 7.5in;
   color: #000;
   font-size: 25px;
 }
@@ -38,7 +36,8 @@ a {
 
 a:hover {
   transition: 0.25s;
-  background-color: #ccd6d5;
+  background: #ccd6d5;
+  background-size: cover;
 }
 
 /* Style the navbar */
