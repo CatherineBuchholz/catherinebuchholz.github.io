@@ -69,10 +69,3 @@ a:hover {
 ::selection {
   background: #dadada;
 }
-
-#box {
-  width: 2000px;
-  border: 15px solid #000;
-  padding: 50px;
-  margin: 20px;
-}
