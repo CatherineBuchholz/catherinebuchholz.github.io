@@ -68,3 +68,13 @@ a:hover {
 ::selection {
   background: #dadada;
 }
+
+.first {
+  padding: 0 0 0 10px;
+}
+
+img {
+  width: 397px;
+  height: 222px;
+  padding: 0 0 32px 0;
+}
