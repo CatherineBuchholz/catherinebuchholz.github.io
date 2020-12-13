@@ -78,8 +78,7 @@ img {
   max-width: 100%;
 }
 
-img,
-a:hover {
+img{
   background: #fff;
 }
 
