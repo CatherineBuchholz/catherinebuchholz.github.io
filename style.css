@@ -109,7 +109,13 @@ a:hover {
   height: 10px;
   width: 100%;
 }
+
+.font{
+width: 625px;
+height: 250px;
+}
 /* 
 tall: 0.75
 wide: 1.6
 square: 1
+font: 1870 x 656
