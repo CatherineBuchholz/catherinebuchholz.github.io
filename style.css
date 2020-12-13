@@ -27,7 +27,7 @@ a {
   text-decoration: none;
 }
 
-a:hover {
+.link:hover {
   background: #d7e0df;
   text-decoration: none;
 }
@@ -78,7 +78,7 @@ img {
   max-width: 100%;
 }
 
-img{
+.img {
   background: #fff;
 }
 
