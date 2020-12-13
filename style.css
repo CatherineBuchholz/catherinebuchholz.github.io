@@ -48,6 +48,10 @@ a:hover {
   text-decoration: none;
 }
 
+#navbar a:hover {
+  background: #d7e0df;
+}
+
 /* Page content */
 .content {
   padding: 16px;
