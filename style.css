@@ -1,11 +1,16 @@
 @font-face {
-  src: url(fonts/Mulish.ttf);
-  font-family: mulish;
+  src: url(fonts/gothic.ttf);
+  font-family: gothic;
+}
+
+@font-face {
+  src: url(fonts/pando.ttf);
+  font-family: pando;
 }
 
 body {
   background: #fff;
-  font-family: Mulish, sans-serif;
+  font-family: gothic, sans-serif;
   margin: auto;
 }
 
@@ -17,7 +22,8 @@ p {
 }
 
 h1 {
-  font-size: 50px;
+  font-family: pando, sans-serif;
+  font-size: 75px;
   padding: 0px 10px 0px;
   color: #7a918f;
 }
