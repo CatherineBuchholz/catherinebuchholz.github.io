@@ -93,18 +93,18 @@ img {
 }
 
 .tall {
-  width: 187.5px;
-  height: 250px;
+  width: 150px;
+  height: 200px;
 }
 
 .wide {
-  width: 400px;
-  height: 250px;
+  width: 320px;
+  height: 200px;
 }
 
 .square {
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
 }
 
 #divider{
