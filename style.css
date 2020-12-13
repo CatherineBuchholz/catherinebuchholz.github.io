@@ -73,6 +73,11 @@ img {
   padding: 10px 0 0 10px;
 }
 
+img,
+a:hover {
+  background: #fff;
+}
+
 .laptop {
   width: 397px;
   height: 222px;
@@ -82,3 +87,27 @@ img {
   width: 292px;
   height: 631px;
 }
+
+.tall {
+  width: 187.5px;
+  height: 250px;
+}
+
+.wide {
+  width: 400px;
+  height: 250px;
+}
+
+.square {
+  width: 250px;
+  height: 250px;
+}
+
+#divider{
+  height: 10px;
+  width: 100%;
+}
+/* 
+tall: 0.75
+wide: 1.6
+square: 1
