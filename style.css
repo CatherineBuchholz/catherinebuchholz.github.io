@@ -12,6 +12,8 @@ body {
   background: #fff;
   font-family: gothic, sans-serif;
   margin: auto;
+  max-width: 75em;
+  margin: auto;
 }
 
 p {
