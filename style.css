@@ -40,13 +40,11 @@ a {
   text-decoration: none;
 }
 
-/* Style the navbar */
 #navbar {
   overflow: hidden;
   background-color: #fff;
 }
 
-/* Navbar links */
 #navbar a {
   float: left;
   display: block;
@@ -60,19 +58,16 @@ a {
   background: #d7e0df;
 }
 
-/* Page content */
 .content {
   padding: 16px;
 }
 
-/* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
   position: fixed;
   top: 0;
   width: 100%;
 }
 
-/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .content {
   padding-top: 60px;
 }
@@ -115,18 +110,13 @@ img {
   height: 200px;
 }
 
-#divider{
+#divider {
   padding: 0 10px 0;
   height: 7.5px;
   width: 100%;
 }
 
-.font{
-width: 570px;
-height: 200px;
+.font {
+  width: 570px;
+  height: 200px;
 }
-/* 
-tall: 0.75
-wide: 1.6
-square: 1
-font: 1870 x 656
