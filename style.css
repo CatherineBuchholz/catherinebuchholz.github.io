@@ -1,16 +1,11 @@
 @font-face {
-  src: url(fonts/gothic.ttf);
-  font-family: gothic;
-}
-
-@font-face {
-  src: url(fonts/pando.ttf);
+  src: url(resources/pando.ttf);
   font-family: pando;
 }
 
 body {
   background: #fff;
-  font-family: gothic, sans-serif;
+  font-family: Helvetica-neue, Helvetica, sans-serif;
   margin: auto;
   max-width: 75em;
   margin: auto;
