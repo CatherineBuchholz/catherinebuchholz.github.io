@@ -38,6 +38,7 @@ a {
 #navbar {
   overflow: hidden;
   background-color: #fff;
+  font-size: 20px;
 }
 
 #navbar a {
@@ -76,18 +77,10 @@ img {
   max-width: 100%;
 }
 
+/* Image widths */
+
 .img {
   background: #fff;
-}
-
-.laptop {
-  width: 397px;
-  height: 222px;
-}
-
-.phone {
-  width: 292px;
-  height: 631px;
 }
 
 .tall {
